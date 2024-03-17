@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "nodenext",
+    "target": "ESNext",
+    "module": "ESNext",
     "lib": ["dom", "es6", "esnext", "esnext.asynciterable"],
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "removeComments": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -22,6 +22,9 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "baseUrl": "."
+  },
+  "ts-node": {
+    "esm": true
   },
   "exclude": ["node_modules", "dist"],
   "include": ["./src/**/*.ts"]
