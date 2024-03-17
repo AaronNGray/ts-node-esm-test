@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "nodenext",
     "lib": ["dom", "es6", "esnext", "esnext.asynciterable"],
     "skipLibCheck": true,
     "sourceMap": true,
